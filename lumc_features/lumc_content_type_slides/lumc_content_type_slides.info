@@ -1,0 +1,11 @@
+name = LUMC Slides Content type
+description = Changes to Slides content type
+core = 7.x
+package = LUMC Features
+dependencies[] = entityreference
+dependencies[] = entityreference_view_widget
+dependencies[] = features
+features[features_api][] = api:2
+features[field_base][] = field_slide_entity_reference
+features[field_instance][] = node-quiz_directions-field_slide_entity_reference
+project path = sites/all/modules/lumc_features

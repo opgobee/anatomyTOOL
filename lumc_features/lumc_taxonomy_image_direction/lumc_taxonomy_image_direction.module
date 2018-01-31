@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the LUMC Image view direction taxonomy feature.
+ */
+
+include_once 'lumc_taxonomy_image_direction.features.inc';

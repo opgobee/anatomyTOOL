@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the LUMC AS Content type feature.
+ */
+
+include_once 'lumc_as_content_type.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the LUMC DI Content type feature.
+ */
+
+include_once 'lumc_di_content_type.features.inc';

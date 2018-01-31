@@ -1,0 +1,12 @@
+name = LUMC Search index Data items
+description = Feature with functionality related to Data items search api index
+core = 7.x
+package = LUMC Features
+dependencies[] = entity
+dependencies[] = lumc_di_content_type
+dependencies[] = search_api
+dependencies[] = search_api_page
+features[features_api][] = api:2
+features[search_api_index][] = atlas_index
+features[search_api_page][] = data_items
+project path = sites/all/modules/lumc_features

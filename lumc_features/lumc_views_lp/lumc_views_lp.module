@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the LUMC Views Learning paths feature.
+ */
+
+include_once 'lumc_views_lp.features.inc';

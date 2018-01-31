@@ -1,0 +1,13 @@
+name = LUMC Format taxonomy
+description = Feature with settings related to Format taxonomy
+core = 7.x
+package = LUMC Features
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = taxonomy
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[taxonomy][] = vocab_format
+features[variable][] = field_bundle_settings_taxonomy_term__vocab_format
+project path = sites/all/modules/lumc_features

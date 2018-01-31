@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the LUMC Institution Content type feature.
+ */
+
+include_once 'lumc_content_type_institution.features.inc';

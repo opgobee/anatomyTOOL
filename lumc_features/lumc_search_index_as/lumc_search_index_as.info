@@ -1,0 +1,10 @@
+name = LUMC Search index Anatomical Structures
+description = Feature with functionality related to Data items search api index
+core = 7.x
+package = LUMC Features
+dependencies[] = entity
+dependencies[] = lumc_as_content_type
+dependencies[] = search_api
+features[features_api][] = api:2
+features[search_api_index][] = anatomical_structures
+project path = sites/all/modules/lumc_features

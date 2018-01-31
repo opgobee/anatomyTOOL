@@ -1,0 +1,13 @@
+name = LUMC Clinical Discipline taxonomy
+description = Feature with settings related to Clinical Discipline taxonomy
+core = 7.x
+package = LUMC Features
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = taxonomy
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[taxonomy][] = vocab_clinical_discipline
+features[variable][] = field_bundle_settings_taxonomy_term__vocab_clinical_discipline
+project path = sites/all/modules/lumc_features

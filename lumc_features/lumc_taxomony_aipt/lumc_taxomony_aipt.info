@@ -1,0 +1,9 @@
+name = LUMC Anatomy in Practice type taxonomy
+description = Feature with settings related to Anatomy in Practice type taxonomy
+core = 7.x
+package = LUMC Features
+dependencies[] = features
+dependencies[] = taxonomy
+features[features_api][] = api:2
+features[taxonomy][] = vocab_anatomy_in_practice
+project path = sites/all/modules/lumc_features

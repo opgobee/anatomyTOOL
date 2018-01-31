@@ -1,0 +1,13 @@
+name = LUMC Topics taxonomy
+description = Feature with settings related to Topics taxonomy
+core = 7.x
+package = LUMC Features
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = taxonomy
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[taxonomy][] = vocab_topics
+features[variable][] = field_bundle_settings_taxonomy_term__vocab_topics
+features_exclude[dependencies][ctools] = ctools
+project path = sites/all/modules/lumc_features

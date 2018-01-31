@@ -1,0 +1,13 @@
+name = LUMC Relationship type taxonomy
+core = 7.x
+package = LUMC Features
+dependencies[] = features
+dependencies[] = taxonomy
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_inverse_relation_text
+features[field_base][] = field_relation_text
+features[field_instance][] = taxonomy_term-relationship_type-field_inverse_relation_text
+features[field_instance][] = taxonomy_term-relationship_type-field_relation_text
+features[taxonomy][] = relationship_type
+project path = sites/all/modules/lumc_features

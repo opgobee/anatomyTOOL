@@ -1,0 +1,16 @@
+name = LUMC Image view direction taxonomy
+description = Feature with settings related to Image view direction taxonomy
+core = 7.x
+package = LUMC Features
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = image
+dependencies[] = lumc_fields_base
+dependencies[] = strongarm
+dependencies[] = taxonomy
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[field_instance][] = taxonomy_term-vocab_image_view_direction-field_vocab_direction_image
+features[taxonomy][] = vocab_image_view_direction
+features[variable][] = field_bundle_settings_taxonomy_term__vocab_image_view_direction
+project path = sites/all/modules/lumc_features

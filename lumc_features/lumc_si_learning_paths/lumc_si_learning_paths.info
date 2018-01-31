@@ -1,0 +1,9 @@
+name = LUMC Search index Learning paths
+description = Functionality related to Learning path search index
+core = 7.x
+package = LUMC Features
+dependencies[] = entity
+dependencies[] = search_api
+features[features_api][] = api:2
+features[search_api_index][] = learning_path_index
+project path = sites/all/modules/lumc_features

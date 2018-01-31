@@ -1,0 +1,16 @@
+name = LUMC Image technique/source taxonomy
+description = Feature with settings related to Image technique/source taxonomy
+core = 7.x
+package = LUMC Features
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = image
+dependencies[] = lumc_fields_base
+dependencies[] = strongarm
+dependencies[] = taxonomy
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[field_instance][] = taxonomy_term-vocab_image_technique-field_vocab_technique_image
+features[taxonomy][] = vocab_image_technique
+features[variable][] = field_bundle_settings_taxonomy_term__vocab_image_technique
+project path = sites/all/modules/lumc_features

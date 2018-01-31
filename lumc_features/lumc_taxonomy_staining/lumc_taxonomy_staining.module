@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the LUMC Staining (microscopy slides) taxonomy feature.
+ */
+
+include_once 'lumc_taxonomy_staining.features.inc';

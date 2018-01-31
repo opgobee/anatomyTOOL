@@ -1,0 +1,13 @@
+name = LUMC Level of Difficulty taxonomy
+description = Feature with settings related to Level of Difficulty taxonomy
+core = 7.x
+package = LUMC Features
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = taxonomy
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[taxonomy][] = level_of_difficulty
+features[variable][] = field_bundle_settings_taxonomy_term__level_of_difficulty
+project path = sites/all/modules/lumc_features

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the LUMC Workflow feature.
+ */
+
+include_once 'lumc_workflow.features.inc';

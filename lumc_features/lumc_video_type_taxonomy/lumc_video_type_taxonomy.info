@@ -1,0 +1,9 @@
+name = LUMC Video Type taxonomy
+description = Feature with settings related to Video Type taxonomy
+core = 7.x
+package = LUMC Features
+dependencies[] = features
+dependencies[] = taxonomy
+features[features_api][] = api:2
+features[taxonomy][] = video_type
+project path = sites/all/modules/lumc_features

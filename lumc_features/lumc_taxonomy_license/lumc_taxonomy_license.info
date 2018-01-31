@@ -1,0 +1,15 @@
+name = LUMC License taxonomy
+description = Feature with settings related to License taxonomy
+core = 7.x
+package = LUMC Features
+dependencies[] = features
+dependencies[] = image
+dependencies[] = link
+dependencies[] = taxonomy
+features[features_api][] = api:2
+features[field_base][] = field_license_image
+features[field_base][] = field_license_url
+features[field_instance][] = taxonomy_term-license-field_license_image
+features[field_instance][] = taxonomy_term-license-field_license_url
+features[taxonomy][] = license
+project path = sites/all/modules/lumc_features
